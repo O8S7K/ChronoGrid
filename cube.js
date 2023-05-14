@@ -338,7 +338,7 @@ function getRandomInt(min, max) {
 }
 
 for (let i = 1; i <= 6; i++) {
-  createGrid("gridContainer" + i, 12, 12);
+  createGrid("gridContainer" + i, 10, 10);
 }
 
 function displayAlphabetCountdown(
@@ -376,7 +376,7 @@ function displayAlphabetCountdown(
 
 // Call your function for each grid cell with a different starting delay
 for (let i = 1; i <= 6; i++) {
-  for (let j = 1; j <= 144; j++) {
+  for (let j = 1; j <= 121; j++) {
     let randomInitialDelay = getRandomInt(500, 1000);
     let randomMinimumDelay = getRandomInt(50, 150);
     let randomDecrement = getRandomInt(5, 15);
